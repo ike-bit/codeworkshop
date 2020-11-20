@@ -4,3 +4,155 @@
     background-size: cover;
     background-color: beige;
 } */
+
+/*
+base styles
+*/
+
+html {
+     overflow-x: hidden;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+layout
+*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    align-self: center;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, .5);
+}
+
+nav a {
+    margin-left: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.hero {
+    margin: 0 auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.hero .hero-image {
+    display: block;
+    position: absolute;
+    top: 15vw;
+    right: -15vw;
+    width: 100vw;
+    max-width: 700px;
+
+}
+
+.hero h1 {
+    position: relative;
+    margin-top: 50%;
+    font-size: 20vw;
+    margin-bottom: 5vh;
+    line-height: 16vw;
+    width: 60vw;
+}
+
+.cta {
+    background-color: steelblue;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.cta:hover {
+    background-color: black;
+}
+
+.cta img{
+    height: 12px;
+    margin-left: 10px;
+}
+
+
+
+.superb h2 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 36px;
+    margin-bottom: 2vw;
+}
+
+.superb img {
+    width: 100%;
+}
+
+.superb .card {
+ margin: 5vw 5vw;
+ padding: 5vw 3vw;
+ background-color: #f4f4f4;
+ border-radius: 5px;
+}
+
+.superb .card h3 {
+    margin-top: 0px;
+    margin-bottom: 2vw;
+}
+
+.superb .card p {
+    margin: 0px;
+    line-height: 120%;
+}
+
+section.immerse{
+
+}
+
+section.immerse img {
+    width:50vw;
+    height: 50vw;
+    display: inline;
+    object-fit: cover;
+    
+}
+
+.image-wrapper {
+    border: 1px solid steelblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
